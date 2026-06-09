@@ -48,7 +48,6 @@ counters.forEach(c=>cObs.observe(c));
 const skills = [
   {name:'Adobe Premiere Pro', icon:'fa-film', val:95},
   {name:'After Effects', icon:'fa-wand-magic-sparkles', val:90},
-  {name:'DaVinci Resolve', icon:'fa-video', val:80},
   {name:'Photoshop', icon:'fa-image', val:92},
   {name:'Illustrator', icon:'fa-pen-nib', val:85},
   {name:'InDesign', icon:'fa-newspaper', val:78},
@@ -149,7 +148,6 @@ document.getElementById('servicesGrid').innerHTML = services.map(s=>`
 // ===== Software circles =====
 const sw = [
   {n:'Premiere Pro', v:95}, {n:'After Effects', v:90}, {n:'Photoshop', v:92},
-  {n:'DaVinci Resolve', v:80}, {n:'Illustrator', v:85}, {n:'Figma', v:82}
 ];
 const swg = document.getElementById('softwareGrid');
 swg.innerHTML = sw.map((s,i)=>{
